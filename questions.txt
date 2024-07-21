@@ -1,0 +1,29 @@
+#### Data
+   - invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
+    - customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
+    - gender: String variable of the customer's gender.
+    - age: Positive Integer variable of the customers age.
+    - category: String variable of the category of the purchased product.
+    - quantity: The quantities of each product (item) per transaction. Numeric.
+    - price: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
+    - payment_method: String variable of the payment method (cash, credit card or debit card) used for the transaction.
+    - invoice_date: Invoice date. The day when a transaction was generated.
+    - shopping_mall: String variable of the name of the shopping mall where the transaction was made.
+
+#### Preguntas de negocio
+ - .1 Como es la relacion de género y número de transacciones
+ - .2 Como es la distribución de edades por número de transacciones"
+ - .3 ¿Qué grupo de edad gastó más dinero?
+ - .4 Comprobar la distribución por edades entre hombres y mujeres
+ - .5 Forma de pago y número de transacciones
+ - .6 Relacion entre la cantidad de dinero gastada y el método de pago
+ - .7 Investigar qué precios de productos suelen preferir los clientes
+ - .8 Descubre las categorías populares
+ - .9 Categorías populares por número de transacciones y monto total gastado
+ - .10 ¿Cuál es el precio promedio por categoría?
+ - .11 Distribución de número de transacciones por grupos de edad y género
+ - .12 ¿Cuánto gastó en total cada combinación de género y grupo de edad en diferentes categorías?
+ - .13 Los centros comerciales más populares por número de transacciones
+ - .14 ¿En qué centro comercial se gasta más dinero?
+ - .15 Total gastado por mes entre 2021-2023
+ - .16 Conclusiones generales
